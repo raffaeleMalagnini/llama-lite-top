@@ -1,36 +1,11 @@
 # llama-lite-top
 
-![llama-lite-top-screen](llama-lite-top-1.0.0.JPG)
+![llama-lite-top-screen](screen.jp)
 
 A lightweight, `btop`-style terminal monitor for [llama.cpp](https://github.com/ggml-org/llama.cpp)'s `llama-server`.
 
 One Python file, standard library only, one-command install on a headless Debian box. It tells you whether the server is reading a prompt or generating, how fast, how full each slot's context is, and, when run on the same machine, how much CPU, RAM and swap are left.
 
-```
- llama-lite-top 1.0.0  http://127.0.0.1:8080                          20:10:37  refresh 1.0s
-┌─ server ──────────────────────────────────────────────────────────────────────────────────┐
-│ Status   ● generating                                                                      │
-│ Model    Qwen3.5-2B-Q4_K_M.gguf                                                            │
-│ Context  32768 tokens   Slots 1/1 busy                                                     │
-│ Queued   0   Running 1                                                                     │
-└───────────────────────────────────────────────────────────────────────────────────────────┘
-┌─ throughput ──────────────────────────────────────────────────────────────────────────────┐
-│ Live generation      8.9 t/s                                                               │
-│ Last request           —   Prompt   28.9 t/s                                               │
-│ Server average    available after the first completed request                              │
-│                                          ▂▃▃▆▇▇█▇▇▇▇▇▇▇▇▇▇▇▇▇▇                             │
-└───────────────────────────────────────────────────────────────────────────────────────────┘
-┌─ slots ───────────────────────────────────────────────────────────────────────────────────┐
-│  ID  state    context                                               used     gen     t/s  │
-│   0  ● gen    █████████░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░   4968/32768     178     8.9  │
-└───────────────────────────────────────────────────────────────────────────────────────────┘
-┌─ host ────────────────────────────────────────────────────────────────────────────────────┐
-│ CPU  49.9%  ██████████████████░░░░░░░░░░░░░░░░░░  RAM 950M/3.2G   ██████░░░░░░░░░░░░░     │
-└───────────────────────────────────────────────────────────────────────────────────────────┘
- q quit  +/- refresh interval
-```
-
-Captured on a Ryzen 5 3500U laptop running Qwen 3.5 2B Q4 on CPU only.
 
 ## Install
 
