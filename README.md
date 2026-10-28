@@ -1,6 +1,6 @@
 # llama-lite-top
 
-![llama-lite-top-screen](screen.jp)
+![llama-lite-top-screen](screen.jpg)
 
 A lightweight, `btop`-style terminal monitor for [llama.cpp](https://github.com/ggml-org/llama.cpp)'s `llama-server`.
 
