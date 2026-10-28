@@ -35,7 +35,7 @@ Captured on a Ryzen 5 3500U laptop running Qwen 3.5 2B Q4 on CPU only.
 On Debian, Ubuntu or any Linux with `curl`:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USER/llama-lite-top/main/install.sh | sudo bash
+curl -fsSL https://raw.githubcontent.com/raffaeleMalagnini/llama-lite-top/main/install.sh | sudo bash
 ```
 
 The installer:
@@ -65,14 +65,14 @@ curl -fsSL .../install.sh | sudo bash -s -- --url http://127.0.0.1:8080 --api-ke
 | `--api-key KEY` | llama-server API key to save in the config file |
 | `--interval SEC` | default refresh interval to save in the config file |
 | `--ref REF` | branch or tag to install (default `main`) |
-| `--user` | install in `~/.local/bin` for the current user, without sudo |
+| `--` | install in `~/.local/bin` for the current , without sudo |
 | `--yes` | never ask questions (automation) |
 | `--uninstall` | remove llama-lite-top; add `--purge` to delete the config file too |
 
 Without root:
 
 ```bash
-curl -fsSL .../install.sh | bash -s -- --user
+curl -fsSL .../install.sh | bash -s -- --
 ```
 
 ### Manual install
