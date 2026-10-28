@@ -4,7 +4,7 @@
 #
 # llama-lite-top installer
 #
-#   curl -fsSL https://raw.githubusercontent.com/YOUR_GITHUB_USER/llama-lite-top/main/install.sh | sudo bash
+#   curl -fsSL https://raw.githubusercontent.com/raffaeleMalagnini/llama-lite-top/main/install.sh | sudo bash
 #
 # With options (note the "-s --"):
 #   curl -fsSL .../install.sh | sudo bash -s -- --url http://127.0.0.1:8080 --api-key KEY
@@ -27,7 +27,7 @@
 main() {
   set -euo pipefail
 
-  local REPO="${LLT_REPO:-YOUR_GITHUB_USER/llama-lite-top}"
+  local REPO="${LLT_REPO:-raffaeleMalagnini/llama-lite-top}"
   local NAME="llama-lite-top"
   local REF="main" URL="" API_KEY="" INTERVAL="" USER_MODE=0 ASSUME_YES=0 UNINSTALL=0 PURGE=0
 
@@ -35,7 +35,7 @@ main() {
     cat <<'EOF'
 llama-lite-top installer
 
-  curl -fsSL https://raw.githubusercontent.com/OWNER/llama-lite-top/main/install.sh | sudo bash
+  curl -fsSL https://raw.githubusercontent.com/raffaeleMalagnini/llama-lite-top/main/install.sh | sudo bash
   curl -fsSL .../install.sh | sudo bash -s -- [options]
 
 Options
