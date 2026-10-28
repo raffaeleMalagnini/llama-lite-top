@@ -3,10 +3,12 @@
 ![llama-lite-top-screen](screen.jpg)
 
 <p align="center">
-  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-GPL v3-green?style=flat-square" alt="License: GPL v3"></a>
-    <a href="https://github.com">
-        <img src="https://shields.io" alt="Latest Release">
-    </a>
+  <a href="https://github.com/YOUR_GITHUB_USER/llama-lite-top/releases/latest">
+    <img src="https://img.shields.io/github/v/release/raffaeleMalagnini/llama-lite-top?style=flat-square" alt="Latest release">
+  </a>
+  <a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/raffaeleMalagnini/llama-lite-top?style=flat-square" alt="License: AGPL-3.0">
+  </a>
 </p>
 
 A lightweight, `btop`-style terminal monitor for [llama.cpp](https://github.com/ggml-org/llama.cpp)'s `llama-server`.
