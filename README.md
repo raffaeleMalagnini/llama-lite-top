@@ -2,6 +2,13 @@
 
 ![llama-lite-top-screen](screen.jpg)
 
+<p align="center">
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-GPL v3-green?style=flat-square" alt="License: GPL v3"></a>
+    <a href="https://github.com">
+        <img src="https://shields.io" alt="Latest Release">
+    </a>
+</p>
+
 A lightweight, `btop`-style terminal monitor for [llama.cpp](https://github.com/ggml-org/llama.cpp)'s `llama-server`.
 
 One Python file, standard library only, one-command install on a headless Debian box. It tells you whether the server is reading a prompt or generating, how fast, how full each slot's context is, and, when run on the same machine, how much CPU, RAM and swap are left.
