@@ -3,12 +3,13 @@
 ![llama-lite-top-screen](screen.jpg)
 
 <p align="center">
-  <a href="https://github.com/YOUR_GITHUB_USER/llama-lite-top/releases/latest">
-    <img src="https://img.shields.io/github/v/release/raffaeleMalagnini/llama-lite-top?style=flat-square" alt="Latest release">
-  </a>
-  <a href="./LICENSE">
-    <img src="https://img.shields.io/github/license/raffaeleMalagnini/llama-lite-top?style=flat-square" alt="License: AGPL-3.0">
-  </a>
+  <a href="https://github.com/raffaeleMalagnini/llama-lite-top/releases/latest"><img src="https://img.shields.io/github/v/release/raffaeleMalagnini/llama-lite-top?style=flat-square" alt="Latest release"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/github/license/raffaeleMalagnini/llama-lite-top?style=flat-square" alt="License"></a>
+  <img src="https://img.shields.io/badge/python-3.8%2B-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python 3.8+">
+  <img src="https://img.shields.io/badge/dependencies-none-brightgreen?style=flat-square" alt="No dependencies">
+  <img src="https://img.shields.io/badge/platform-Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux">
+  <a href="https://github.com/ggml-org/llama.cpp"><img src="https://img.shields.io/badge/for-llama.cpp-8A2BE2?style=flat-square" alt="For llama.cpp"></a>
+  <a href="https://github.com/raffaeleMalagnini/llama-lite-top/commits/main"><img src="https://img.shields.io/github/last-commit/raffaeleMalagnini/llama-lite-top?style=flat-square" alt="Last commit"></a>
 </p>
 
 A lightweight, `btop`-style terminal monitor for [llama.cpp](https://github.com/ggml-org/llama.cpp)'s `llama-server`.
